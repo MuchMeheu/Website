@@ -1,0 +1,30 @@
+body {
+    background-image: url('path/to/your/image.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    overflow-y: scroll;
+}
+.navbar {
+    background-color: #333; /* Dark grey background */
+}
+.nav-link {
+    color: #fff; /* White text */
+}
+.nav-link:hover {
+    color: #ddd; /* Light grey text on hover */
+}
+.nav-item.active .nav-link {
+    color: #f00; /* Red text for the active link */
+}
